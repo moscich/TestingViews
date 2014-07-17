@@ -7,25 +7,45 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		530421D4A3C467B1CFF5AF5B /* image2@2x.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 53042B9C04883E3294777065 /* image2@2x.jpg */; };
 		5304226500B8D699702D03F5 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 5304212A5BE5D6250AFDA8C2 /* InfoPlist.strings */; };
 		530422807D541E33416C762D /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5304272831AA98044FFD50CA /* UIKit.framework */; };
 		530423CEBFB839D4780EB975 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 53042512077E4550C06DBCF2 /* Foundation.framework */; };
 		5304253FC35D2ECFB657A543 /* MMControllerFactory.m in Sources */ = {isa = PBXBuildFile; fileRef = 53042F4C78573B68E8090845 /* MMControllerFactory.m */; };
 		5304255DF53C151B08D4252B /* MMStubImageService.m in Sources */ = {isa = PBXBuildFile; fileRef = 530425E67AD27E26EE741FCF /* MMStubImageService.m */; };
 		530425676E9D28EC91C333C8 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 530426558BE6386752F64786 /* Images.xcassets */; };
+		530425795086B91351D4A4D3 /* image4@2x.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 530427B99F3F326C5C579386 /* image4@2x.jpg */; };
 		530425C84C63F3E80EF7841A /* MMHomeView.m in Sources */ = {isa = PBXBuildFile; fileRef = 53042D601AEF180D99BEC2FE /* MMHomeView.m */; };
 		530425FB47F64AEDFEB84527 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 530424F2FAC91429EC9C1849 /* InfoPlist.strings */; };
+		5304261EC2618C1378494110 /* MMMockedServiceFactory.m in Sources */ = {isa = PBXBuildFile; fileRef = 530421906F8AC9C772531AA6 /* MMMockedServiceFactory.m */; };
 		53042856B4C53F35380A84EF /* MMStubServiceFactory.m in Sources */ = {isa = PBXBuildFile; fileRef = 53042DB97884320670235E63 /* MMStubServiceFactory.m */; };
 		530428A9F1997D644F213945 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 53042C8DA312A0F3D64BC2B6 /* main.m */; };
+		5304297466E78BEC8D5BF096 /* image1@2x.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 530427C20CF0B3C9C39E2FF0 /* image1@2x.jpg */; };
+		530429B129B374D5A7174F7B /* image3@2x.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 530425AB93C5814A9B385072 /* image3@2x.jpg */; };
 		530429C615C9C3305793D668 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 530421138FFFE143E862A48E /* XCTest.framework */; };
 		53042C051C46EDA6AFB8537E /* MMHomeView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 53042E07CDFFC416809EAE62 /* MMHomeView.xib */; };
 		53042C0A1F0D7C6EF92F74D3 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5304235EE44E256927089A71 /* CoreGraphics.framework */; };
+		53042C750604BBF2135D9C1B /* MMMockedImageService.m in Sources */ = {isa = PBXBuildFile; fileRef = 530422B6888ACBB6563050B2 /* MMMockedImageService.m */; };
 		53042D7EB2E768758ABF206D /* MMAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 53042AEC20A93EA74EB5C1FF /* MMAppDelegate.m */; };
 		53042E3A81511B3C7C7ED6FE /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5304272831AA98044FFD50CA /* UIKit.framework */; };
 		53042E66B3DC95D9D4B3E1B8 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 53042512077E4550C06DBCF2 /* Foundation.framework */; };
 		53042F974282DD34E4969AB7 /* MMHomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 53042D42960B1AF03676BD33 /* MMHomeViewController.m */; };
 		79CF403E1975BC5900212988 /* MMHomeScreenTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 79CF403D1975BC5900212988 /* MMHomeScreenTests.m */; };
 		79ECE17719783C13006ACCB7 /* MMControllerFactoryTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 79ECE17619783C13006ACCB7 /* MMControllerFactoryTests.m */; };
+		79ECE1AB19784758006ACCB7 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 53042512077E4550C06DBCF2 /* Foundation.framework */; };
+		79ECE1AC19784758006ACCB7 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5304235EE44E256927089A71 /* CoreGraphics.framework */; };
+		79ECE1AD19784758006ACCB7 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5304272831AA98044FFD50CA /* UIKit.framework */; };
+		79ECE1B919784758006ACCB7 /* MMAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 79ECE1B819784758006ACCB7 /* MMAppDelegate.m */; };
+		79ECE1D4197847F5006ACCB7 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 53042C8DA312A0F3D64BC2B6 /* main.m */; };
+		79ECE1D819784A24006ACCB7 /* MMHomeView.m in Sources */ = {isa = PBXBuildFile; fileRef = 53042D601AEF180D99BEC2FE /* MMHomeView.m */; };
+		79ECE1D919784A24006ACCB7 /* MMHomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 53042D42960B1AF03676BD33 /* MMHomeViewController.m */; };
+		79ECE1DA19784A24006ACCB7 /* MMControllerFactory.m in Sources */ = {isa = PBXBuildFile; fileRef = 53042F4C78573B68E8090845 /* MMControllerFactory.m */; };
+		79ECE1E019784C64006ACCB7 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 530421138FFFE143E862A48E /* XCTest.framework */; };
+		79ECE1E119784C64006ACCB7 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 53042512077E4550C06DBCF2 /* Foundation.framework */; };
+		79ECE1E219784C64006ACCB7 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5304272831AA98044FFD50CA /* UIKit.framework */; };
+		79ECE1E819784C64006ACCB7 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 79ECE1E619784C64006ACCB7 /* InfoPlist.strings */; };
+		79ECE1EA19784C64006ACCB7 /* MMMockedServiceTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 79ECE1E919784C64006ACCB7 /* MMMockedServiceTests.m */; };
+		79ECE1F3197853F8006ACCB7 /* MMHomeView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 53042E07CDFFC416809EAE62 /* MMHomeView.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +56,13 @@
 			remoteGlobalIDString = 53042BEC1E8ABBD59AC1451E;
 			remoteInfo = TDDExample;
 		};
+		79ECE1F119785004006ACCB7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 530428161B295A77820B3F16 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 79ECE1A919784758006ACCB7;
+			remoteInfo = StubTDDExample;
+		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
@@ -44,11 +71,18 @@
 		530421138FFFE143E862A48E /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
 		5304213EFE9F69196BD0C6F6 /* TDDExampleTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.info; path = "TDDExampleTests-Info.plist"; sourceTree = "<group>"; };
 		53042145466EDC8099B74402 /* TDDExampleTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TDDExampleTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		530421906F8AC9C772531AA6 /* MMMockedServiceFactory.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MMMockedServiceFactory.m; sourceTree = "<group>"; };
+		5304222351156A260011CADA /* MMMockedServiceFactory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MMMockedServiceFactory.h; sourceTree = "<group>"; };
+		530422B6888ACBB6563050B2 /* MMMockedImageService.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MMMockedImageService.m; sourceTree = "<group>"; };
 		5304235EE44E256927089A71 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		530424873567B5D7C0342B2A /* MMMockedImageService.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MMMockedImageService.h; sourceTree = "<group>"; };
 		53042512077E4550C06DBCF2 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		530425AB93C5814A9B385072 /* image3@2x.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "image3@2x.jpg"; sourceTree = "<group>"; };
 		530425E67AD27E26EE741FCF /* MMStubImageService.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MMStubImageService.m; sourceTree = "<group>"; };
 		530426558BE6386752F64786 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		5304272831AA98044FFD50CA /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		530427B99F3F326C5C579386 /* image4@2x.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "image4@2x.jpg"; sourceTree = "<group>"; };
+		530427C20CF0B3C9C39E2FF0 /* image1@2x.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "image1@2x.jpg"; sourceTree = "<group>"; };
 		530429E35B5BFC19F8B0A967 /* MMHomeView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MMHomeView.h; sourceTree = "<group>"; };
 		53042A656B221DC2AA1B1B38 /* TDDExample-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.info; path = "TDDExample-Info.plist"; sourceTree = "<group>"; };
 		53042A75AC234FEE68605910 /* MMServiceFactory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MMServiceFactory.h; sourceTree = "<group>"; };
@@ -57,6 +91,7 @@
 		53042AEC20A93EA74EB5C1FF /* MMAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MMAppDelegate.m; sourceTree = "<group>"; };
 		53042AF211826F91C92DD90D /* MMAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MMAppDelegate.h; sourceTree = "<group>"; };
 		53042B8A8AB079022C5C6E6E /* TDDExample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TDDExample.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		53042B9C04883E3294777065 /* image2@2x.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "image2@2x.jpg"; sourceTree = "<group>"; };
 		53042BC458694DF2DA91DB8C /* MMStubImageService.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MMStubImageService.h; sourceTree = "<group>"; };
 		53042BF4037544CDB4D8CA65 /* TDDExample-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "TDDExample-Prefix.pch"; sourceTree = "<group>"; };
 		53042C8DA312A0F3D64BC2B6 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -69,6 +104,16 @@
 		53042F4C78573B68E8090845 /* MMControllerFactory.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MMControllerFactory.m; sourceTree = "<group>"; };
 		79CF403D1975BC5900212988 /* MMHomeScreenTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MMHomeScreenTests.m; sourceTree = "<group>"; };
 		79ECE17619783C13006ACCB7 /* MMControllerFactoryTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MMControllerFactoryTests.m; sourceTree = "<group>"; };
+		79ECE1AA19784758006ACCB7 /* StubTDDExample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = StubTDDExample.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		79ECE1B719784758006ACCB7 /* MMAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MMAppDelegate.h; sourceTree = "<group>"; };
+		79ECE1B819784758006ACCB7 /* MMAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MMAppDelegate.m; sourceTree = "<group>"; };
+		79ECE1D519784892006ACCB7 /* StubTDDExample-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "StubTDDExample-Info.plist"; sourceTree = "<group>"; };
+		79ECE1D7197848C2006ACCB7 /* StubTDDExample-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "StubTDDExample-Prefix.pch"; sourceTree = "<group>"; };
+		79ECE1DF19784C64006ACCB7 /* StubTDDExample Unit tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "StubTDDExample Unit tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		79ECE1E519784C64006ACCB7 /* StubTDDExample Unit tests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "StubTDDExample Unit tests-Info.plist"; sourceTree = "<group>"; };
+		79ECE1E719784C64006ACCB7 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		79ECE1E919784C64006ACCB7 /* MMMockedServiceTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MMMockedServiceTests.m; sourceTree = "<group>"; };
+		79ECE1EB19784C64006ACCB7 /* StubTDDExample Unit tests-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "StubTDDExample Unit tests-Prefix.pch"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -92,12 +137,34 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		79ECE1A719784758006ACCB7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				79ECE1AC19784758006ACCB7 /* CoreGraphics.framework in Frameworks */,
+				79ECE1AD19784758006ACCB7 /* UIKit.framework in Frameworks */,
+				79ECE1AB19784758006ACCB7 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		79ECE1DC19784C64006ACCB7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				79ECE1E019784C64006ACCB7 /* XCTest.framework in Frameworks */,
+				79ECE1E219784C64006ACCB7 /* UIKit.framework in Frameworks */,
+				79ECE1E119784C64006ACCB7 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
 		5304207DEDBA1C16700F216F = {
 			isa = PBXGroup;
 			children = (
+				79ECE1AE19784758006ACCB7 /* StubTDDExample */,
+				79ECE1E319784C64006ACCB7 /* StubTDDExample Unit tests */,
 				53042F8D94FC78AE669F7774 /* Products */,
 				530420EAEEBF5C7D306B4D5C /* Frameworks */,
 				53042B11C1F4DE171D49A0DC /* TDDExample */,
@@ -154,6 +221,17 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
+		53042AE0343E0908FB890579 /* Assets */ = {
+			isa = PBXGroup;
+			children = (
+				530425AB93C5814A9B385072 /* image3@2x.jpg */,
+				530427B99F3F326C5C579386 /* image4@2x.jpg */,
+				530427C20CF0B3C9C39E2FF0 /* image1@2x.jpg */,
+				53042B9C04883E3294777065 /* image2@2x.jpg */,
+			);
+			path = Assets;
+			sourceTree = "<group>";
+		};
 		53042B11C1F4DE171D49A0DC /* TDDExample */ = {
 			isa = PBXGroup;
 			children = (
@@ -175,8 +253,45 @@
 			children = (
 				53042B8A8AB079022C5C6E6E /* TDDExample.app */,
 				53042145466EDC8099B74402 /* TDDExampleTests.xctest */,
+				79ECE1AA19784758006ACCB7 /* StubTDDExample.app */,
+				79ECE1DF19784C64006ACCB7 /* StubTDDExample Unit tests.xctest */,
 			);
 			name = Products;
+			sourceTree = "<group>";
+		};
+		79ECE1AE19784758006ACCB7 /* StubTDDExample */ = {
+			isa = PBXGroup;
+			children = (
+				79ECE1B719784758006ACCB7 /* MMAppDelegate.h */,
+				79ECE1B819784758006ACCB7 /* MMAppDelegate.m */,
+				79ECE1D519784892006ACCB7 /* StubTDDExample-Info.plist */,
+				79ECE1D7197848C2006ACCB7 /* StubTDDExample-Prefix.pch */,
+				530421906F8AC9C772531AA6 /* MMMockedServiceFactory.m */,
+				5304222351156A260011CADA /* MMMockedServiceFactory.h */,
+				53042AE0343E0908FB890579 /* Assets */,
+				530422B6888ACBB6563050B2 /* MMMockedImageService.m */,
+				530424873567B5D7C0342B2A /* MMMockedImageService.h */,
+			);
+			path = StubTDDExample;
+			sourceTree = "<group>";
+		};
+		79ECE1E319784C64006ACCB7 /* StubTDDExample Unit tests */ = {
+			isa = PBXGroup;
+			children = (
+				79ECE1E919784C64006ACCB7 /* MMMockedServiceTests.m */,
+				79ECE1E419784C64006ACCB7 /* Supporting Files */,
+			);
+			path = "StubTDDExample Unit tests";
+			sourceTree = "<group>";
+		};
+		79ECE1E419784C64006ACCB7 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				79ECE1E519784C64006ACCB7 /* StubTDDExample Unit tests-Info.plist */,
+				79ECE1E619784C64006ACCB7 /* InfoPlist.strings */,
+				79ECE1EB19784C64006ACCB7 /* StubTDDExample Unit tests-Prefix.pch */,
+			);
+			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -217,6 +332,41 @@
 			productReference = 53042B8A8AB079022C5C6E6E /* TDDExample.app */;
 			productType = "com.apple.product-type.application";
 		};
+		79ECE1A919784758006ACCB7 /* StubTDDExample */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 79ECE1CE19784759006ACCB7 /* Build configuration list for PBXNativeTarget "StubTDDExample" */;
+			buildPhases = (
+				79ECE1A619784758006ACCB7 /* Sources */,
+				79ECE1A719784758006ACCB7 /* Frameworks */,
+				79ECE1A819784758006ACCB7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = StubTDDExample;
+			productName = StubTDDExample;
+			productReference = 79ECE1AA19784758006ACCB7 /* StubTDDExample.app */;
+			productType = "com.apple.product-type.application";
+		};
+		79ECE1DE19784C64006ACCB7 /* StubTDDExample Unit tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 79ECE1F019784C64006ACCB7 /* Build configuration list for PBXNativeTarget "StubTDDExample Unit tests" */;
+			buildPhases = (
+				79ECE1DB19784C64006ACCB7 /* Sources */,
+				79ECE1DC19784C64006ACCB7 /* Frameworks */,
+				79ECE1DD19784C64006ACCB7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				79ECE1F219785004006ACCB7 /* PBXTargetDependency */,
+			);
+			name = "StubTDDExample Unit tests";
+			productName = "StubTDDExample Unit tests";
+			productReference = 79ECE1DF19784C64006ACCB7 /* StubTDDExample Unit tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -227,6 +377,9 @@
 				TargetAttributes = {
 					53042977D1001C942B4F0537 = {
 						TestTargetID = 53042BEC1E8ABBD59AC1451E;
+					};
+					79ECE1DE19784C64006ACCB7 = {
+						TestTargetID = 79ECE1A919784758006ACCB7;
 					};
 				};
 			};
@@ -244,6 +397,8 @@
 			targets = (
 				53042BEC1E8ABBD59AC1451E /* TDDExample */,
 				53042977D1001C942B4F0537 /* TDDExampleTests */,
+				79ECE1A919784758006ACCB7 /* StubTDDExample */,
+				79ECE1DE19784C64006ACCB7 /* StubTDDExample Unit tests */,
 			);
 		};
 /* End PBXProject section */
@@ -264,6 +419,26 @@
 				530425FB47F64AEDFEB84527 /* InfoPlist.strings in Resources */,
 				530425676E9D28EC91C333C8 /* Images.xcassets in Resources */,
 				53042C051C46EDA6AFB8537E /* MMHomeView.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		79ECE1A819784758006ACCB7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				79ECE1F3197853F8006ACCB7 /* MMHomeView.xib in Resources */,
+				530429B129B374D5A7174F7B /* image3@2x.jpg in Resources */,
+				530425795086B91351D4A4D3 /* image4@2x.jpg in Resources */,
+				5304297466E78BEC8D5BF096 /* image1@2x.jpg in Resources */,
+				530421D4A3C467B1CFF5AF5B /* image2@2x.jpg in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		79ECE1DD19784C64006ACCB7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				79ECE1E819784C64006ACCB7 /* InfoPlist.strings in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -293,6 +468,28 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		79ECE1A619784758006ACCB7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				79ECE1D4197847F5006ACCB7 /* main.m in Sources */,
+				79ECE1B919784758006ACCB7 /* MMAppDelegate.m in Sources */,
+				79ECE1D819784A24006ACCB7 /* MMHomeView.m in Sources */,
+				79ECE1D919784A24006ACCB7 /* MMHomeViewController.m in Sources */,
+				79ECE1DA19784A24006ACCB7 /* MMControllerFactory.m in Sources */,
+				5304261EC2618C1378494110 /* MMMockedServiceFactory.m in Sources */,
+				53042C750604BBF2135D9C1B /* MMMockedImageService.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		79ECE1DB19784C64006ACCB7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				79ECE1EA19784C64006ACCB7 /* MMMockedServiceTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
@@ -300,6 +497,11 @@
 			isa = PBXTargetDependency;
 			target = 53042BEC1E8ABBD59AC1451E /* TDDExample */;
 			targetProxy = 530424DF724238B53ED8DE94 /* PBXContainerItemProxy */;
+		};
+		79ECE1F219785004006ACCB7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 79ECE1A919784758006ACCB7 /* StubTDDExample */;
+			targetProxy = 79ECE1F119785004006ACCB7 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -316,6 +518,14 @@
 			isa = PBXVariantGroup;
 			children = (
 				53042E1111644FAAC16175BF /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		79ECE1E619784C64006ACCB7 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				79ECE1E719784C64006ACCB7 /* en */,
 			);
 			name = InfoPlist.strings;
 			sourceTree = "<group>";
@@ -455,6 +665,76 @@
 			};
 			name = Release;
 		};
+		79ECE1CF19784759006ACCB7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "StubTDDExample/StubTDDExample-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "StubTDDExample/StubTDDExample-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		79ECE1D019784759006ACCB7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "StubTDDExample/StubTDDExample-Prefix.pch";
+				INFOPLIST_FILE = "StubTDDExample/StubTDDExample-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		79ECE1EE19784C64006ACCB7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/StubTDDExample.app/StubTDDExample";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "StubTDDExample Unit tests/StubTDDExample Unit tests-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "StubTDDExample Unit tests/StubTDDExample Unit tests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		79ECE1EF19784C64006ACCB7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/StubTDDExample.app/StubTDDExample";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "StubTDDExample Unit tests/StubTDDExample Unit tests-Prefix.pch";
+				INFOPLIST_FILE = "StubTDDExample Unit tests/StubTDDExample Unit tests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -481,6 +761,24 @@
 			buildConfigurations = (
 				530426DE54C9E7D5EFDED9F2 /* Debug */,
 				53042DD9B3B57C8ADE02FA42 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		79ECE1CE19784759006ACCB7 /* Build configuration list for PBXNativeTarget "StubTDDExample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				79ECE1CF19784759006ACCB7 /* Debug */,
+				79ECE1D019784759006ACCB7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		79ECE1F019784C64006ACCB7 /* Build configuration list for PBXNativeTarget "StubTDDExample Unit tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				79ECE1EE19784C64006ACCB7 /* Debug */,
+				79ECE1EF19784C64006ACCB7 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

@@ -11,6 +11,5 @@
 
 @interface MMHomeViewController : UIViewController
 
-
 @property(nonatomic, strong) id <MMImageService> imageService;
 @end
