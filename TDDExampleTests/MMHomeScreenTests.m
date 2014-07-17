@@ -30,8 +30,7 @@
 - (void)testControllerFetchImagesFromServiceAndPopulateItsView {
   NSArray *mockedImages = @[[UIImage new], [UIImage new],[UIImage new], [UIImage new]];
   MMHomeViewController *homeController = [MMHomeViewController new];
-  MMStubImageService *imageService = [[MMStubImageService alloc] initWithImages:mockedImages];
-  homeController.imageService = imageService;
+  homeController.imageService = [[MMStubImageService alloc] initWithImages:mockedImages];
   [homeController viewDidLoad];
 
   for (int i = 0; i < 4; i++)

@@ -6,8 +6,6 @@
 #import "MMHomeViewController.h"
 #import "MMHomeView.h"
 #import "MMStubImageService.h"
-#import "MMImageService.h"
-
 
 @implementation MMHomeViewController {
 
@@ -17,7 +15,7 @@
   [self.imageService getImages:^(NSArray *images){
     NSArray *imageViews = ((MMHomeView *)self.view).imageViews;
     for(int i = 0; i < images.count; i++){
-      UIImageView *imageView = [imageViews objectAtIndex:(NSUInteger) i];
+      UIImageView *imageView = imageViews[(NSUInteger) i];
       UIImage *image = images[(NSUInteger) i];
       imageView.image = image;
     }

@@ -10,19 +10,22 @@
 		5304226500B8D699702D03F5 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 5304212A5BE5D6250AFDA8C2 /* InfoPlist.strings */; };
 		530422807D541E33416C762D /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5304272831AA98044FFD50CA /* UIKit.framework */; };
 		530423CEBFB839D4780EB975 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 53042512077E4550C06DBCF2 /* Foundation.framework */; };
+		5304253FC35D2ECFB657A543 /* MMControllerFactory.m in Sources */ = {isa = PBXBuildFile; fileRef = 53042F4C78573B68E8090845 /* MMControllerFactory.m */; };
 		5304255DF53C151B08D4252B /* MMStubImageService.m in Sources */ = {isa = PBXBuildFile; fileRef = 530425E67AD27E26EE741FCF /* MMStubImageService.m */; };
 		530425676E9D28EC91C333C8 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 530426558BE6386752F64786 /* Images.xcassets */; };
 		530425C84C63F3E80EF7841A /* MMHomeView.m in Sources */ = {isa = PBXBuildFile; fileRef = 53042D601AEF180D99BEC2FE /* MMHomeView.m */; };
 		530425FB47F64AEDFEB84527 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 530424F2FAC91429EC9C1849 /* InfoPlist.strings */; };
+		53042856B4C53F35380A84EF /* MMStubServiceFactory.m in Sources */ = {isa = PBXBuildFile; fileRef = 53042DB97884320670235E63 /* MMStubServiceFactory.m */; };
 		530428A9F1997D644F213945 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 53042C8DA312A0F3D64BC2B6 /* main.m */; };
-		530428CD887FE69E1B523CCB /* MMHomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 53042B13048E82097AAA1FCF /* MMHomeViewController.m */; };
 		530429C615C9C3305793D668 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 530421138FFFE143E862A48E /* XCTest.framework */; };
 		53042C051C46EDA6AFB8537E /* MMHomeView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 53042E07CDFFC416809EAE62 /* MMHomeView.xib */; };
 		53042C0A1F0D7C6EF92F74D3 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5304235EE44E256927089A71 /* CoreGraphics.framework */; };
 		53042D7EB2E768758ABF206D /* MMAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 53042AEC20A93EA74EB5C1FF /* MMAppDelegate.m */; };
 		53042E3A81511B3C7C7ED6FE /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5304272831AA98044FFD50CA /* UIKit.framework */; };
 		53042E66B3DC95D9D4B3E1B8 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 53042512077E4550C06DBCF2 /* Foundation.framework */; };
+		53042F974282DD34E4969AB7 /* MMHomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 53042D42960B1AF03676BD33 /* MMHomeViewController.m */; };
 		79CF403E1975BC5900212988 /* MMHomeScreenTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 79CF403D1975BC5900212988 /* MMHomeScreenTests.m */; };
+		79ECE17719783C13006ACCB7 /* MMControllerFactoryTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 79ECE17619783C13006ACCB7 /* MMControllerFactoryTests.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -37,6 +40,7 @@
 
 /* Begin PBXFileReference section */
 		53042082E0726D9B5898E8C0 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		530421074EC588BEE010FECD /* MMControllerFactory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MMControllerFactory.h; sourceTree = "<group>"; };
 		530421138FFFE143E862A48E /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
 		5304213EFE9F69196BD0C6F6 /* TDDExampleTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.info; path = "TDDExampleTests-Info.plist"; sourceTree = "<group>"; };
 		53042145466EDC8099B74402 /* TDDExampleTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TDDExampleTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -47,19 +51,24 @@
 		5304272831AA98044FFD50CA /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		530429E35B5BFC19F8B0A967 /* MMHomeView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MMHomeView.h; sourceTree = "<group>"; };
 		53042A656B221DC2AA1B1B38 /* TDDExample-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.info; path = "TDDExample-Info.plist"; sourceTree = "<group>"; };
+		53042A75AC234FEE68605910 /* MMServiceFactory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MMServiceFactory.h; sourceTree = "<group>"; };
+		53042AA39384F1C5FAB0D3C7 /* MMHomeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MMHomeViewController.h; sourceTree = "<group>"; };
+		53042AD85EA1EF115314C619 /* MMStubServiceFactory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MMStubServiceFactory.h; sourceTree = "<group>"; };
 		53042AEC20A93EA74EB5C1FF /* MMAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MMAppDelegate.m; sourceTree = "<group>"; };
 		53042AF211826F91C92DD90D /* MMAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MMAppDelegate.h; sourceTree = "<group>"; };
-		53042B13048E82097AAA1FCF /* MMHomeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MMHomeViewController.m; sourceTree = "<group>"; };
 		53042B8A8AB079022C5C6E6E /* TDDExample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TDDExample.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		53042BC458694DF2DA91DB8C /* MMStubImageService.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MMStubImageService.h; sourceTree = "<group>"; };
 		53042BF4037544CDB4D8CA65 /* TDDExample-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "TDDExample-Prefix.pch"; sourceTree = "<group>"; };
-		53042C62908FAF93A9E8C5D7 /* MMHomeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MMHomeViewController.h; sourceTree = "<group>"; };
 		53042C8DA312A0F3D64BC2B6 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		53042D42960B1AF03676BD33 /* MMHomeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MMHomeViewController.m; sourceTree = "<group>"; };
 		53042D601AEF180D99BEC2FE /* MMHomeView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MMHomeView.m; sourceTree = "<group>"; };
+		53042DB97884320670235E63 /* MMStubServiceFactory.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MMStubServiceFactory.m; sourceTree = "<group>"; };
 		53042E07CDFFC416809EAE62 /* MMHomeView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MMHomeView.xib; sourceTree = "<group>"; };
 		53042E1111644FAAC16175BF /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		53042E81831EFA4C253E4D88 /* MMImageService.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MMImageService.h; sourceTree = "<group>"; };
+		53042F4C78573B68E8090845 /* MMControllerFactory.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MMControllerFactory.m; sourceTree = "<group>"; };
 		79CF403D1975BC5900212988 /* MMHomeScreenTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MMHomeScreenTests.m; sourceTree = "<group>"; };
+		79ECE17619783C13006ACCB7 /* MMControllerFactoryTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MMControllerFactoryTests.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -112,11 +121,15 @@
 			children = (
 				530426737ED2B6833A62B1C2 /* Supporting Files */,
 				79CF403D1975BC5900212988 /* MMHomeScreenTests.m */,
-				53042B13048E82097AAA1FCF /* MMHomeViewController.m */,
-				53042C62908FAF93A9E8C5D7 /* MMHomeViewController.h */,
 				530425E67AD27E26EE741FCF /* MMStubImageService.m */,
 				53042BC458694DF2DA91DB8C /* MMStubImageService.h */,
 				53042E81831EFA4C253E4D88 /* MMImageService.h */,
+				79ECE17619783C13006ACCB7 /* MMControllerFactoryTests.m */,
+				53042F4C78573B68E8090845 /* MMControllerFactory.m */,
+				530421074EC588BEE010FECD /* MMControllerFactory.h */,
+				53042DB97884320670235E63 /* MMStubServiceFactory.m */,
+				53042AD85EA1EF115314C619 /* MMStubServiceFactory.h */,
+				53042A75AC234FEE68605910 /* MMServiceFactory.h */,
 			);
 			path = TDDExampleTests;
 			sourceTree = "<group>";
@@ -151,6 +164,8 @@
 				53042D601AEF180D99BEC2FE /* MMHomeView.m */,
 				530429E35B5BFC19F8B0A967 /* MMHomeView.h */,
 				53042E07CDFFC416809EAE62 /* MMHomeView.xib */,
+				53042D42960B1AF03676BD33 /* MMHomeViewController.m */,
+				53042AA39384F1C5FAB0D3C7 /* MMHomeViewController.h */,
 			);
 			path = TDDExample;
 			sourceTree = "<group>";
@@ -260,7 +275,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				79CF403E1975BC5900212988 /* MMHomeScreenTests.m in Sources */,
+				79ECE17719783C13006ACCB7 /* MMControllerFactoryTests.m in Sources */,
 				5304255DF53C151B08D4252B /* MMStubImageService.m in Sources */,
+				53042856B4C53F35380A84EF /* MMStubServiceFactory.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -270,8 +287,9 @@
 			files = (
 				530428A9F1997D644F213945 /* main.m in Sources */,
 				53042D7EB2E768758ABF206D /* MMAppDelegate.m in Sources */,
-				530428CD887FE69E1B523CCB /* MMHomeViewController.m in Sources */,
 				530425C84C63F3E80EF7841A /* MMHomeView.m in Sources */,
+				53042F974282DD34E4969AB7 /* MMHomeViewController.m in Sources */,
+				5304253FC35D2ECFB657A543 /* MMControllerFactory.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
