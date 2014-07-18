@@ -28,13 +28,24 @@
 }
 
 - (void)testControllerFetchImagesFromServiceAndPopulateItsView {
-  NSArray *mockedImages = @[[UIImage new], [UIImage new],[UIImage new], [UIImage new]];
+  NSArray *mockedImages = @[[UIImage new], [UIImage new], [UIImage new], [UIImage new]];
   MMHomeViewController *homeController = [MMHomeViewController new];
   homeController.imageService = [[MMStubImageService alloc] initWithImages:mockedImages];
   [homeController viewDidLoad];
 
   for (int i = 0; i < 4; i++)
-    XCTAssertEqualObjects(((UIImageView *)((MMHomeView *)homeController.view).imageViews[i]).image, mockedImages[i]);
+    XCTAssertEqualObjects(((UIImageView *) ((MMHomeView *) homeController.view).imageViews[i]).image, mockedImages[i]);
+}
+
+- (void)testHomeViewTextFieldAreVisibleWhenKeyboarAppears {
+  MMHomeViewController *homeController = [MMHomeViewController new];
+  [homeController viewDidLoad];
+
+  NSDictionary *notificationObject = @{UIKeyboardFrameEndUserInfoKey: [NSValue valueWithCGRect:CGRectMake(0, 264, 320, 216)]};
+  NSNotification *keyboardNotification = [NSNotification notificationWithName:UIKeyboardWillShowNotification object:notificationObject];
+
+  [((MMHomeView *) homeController.view) keyboardWillBeShown:keyboardNotification];
+  XCTAssertTrue(-96 <= ((MMHomeView *)homeController.view).topMarginConstraint.constant);
 }
 
 @end

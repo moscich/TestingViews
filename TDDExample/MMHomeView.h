@@ -10,4 +10,9 @@
 
 @property (nonatomic, strong) IBOutletCollection(UIImageView) NSArray *imageViews;
 
+@property(nonatomic, strong) IBOutlet UITextField *usernameInputField;
+@property(nonatomic, strong) IBOutlet UITextField *passwordInputField;
+@property(nonatomic, strong) IBOutlet NSLayoutConstraint *topMarginConstraint;
+
+- (void)keyboardWillBeShown:(NSNotification *)keyboardNotification;
 @end

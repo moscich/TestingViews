@@ -12,20 +12,21 @@
 		530422807D541E33416C762D /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5304272831AA98044FFD50CA /* UIKit.framework */; };
 		530422960C3C034375DDEFB5 /* background@2x.PNG in Resources */ = {isa = PBXBuildFile; fileRef = 530423C8641D2B57082B5FAA /* background@2x.PNG */; };
 		530423CEBFB839D4780EB975 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 53042512077E4550C06DBCF2 /* Foundation.framework */; };
-		5304253FC35D2ECFB657A543 /* MMControllerFactory.m in Sources */ = {isa = PBXBuildFile; fileRef = 53042F4C78573B68E8090845 /* MMControllerFactory.m */; };
-		5304255DF53C151B08D4252B /* MMStubImageService.m in Sources */ = {isa = PBXBuildFile; fileRef = 530425E67AD27E26EE741FCF /* MMStubImageService.m */; };
 		530425676E9D28EC91C333C8 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 530426558BE6386752F64786 /* Images.xcassets */; };
 		530425795086B91351D4A4D3 /* image4@2x.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 530427B99F3F326C5C579386 /* image4@2x.jpg */; };
 		530425C84C63F3E80EF7841A /* MMHomeView.m in Sources */ = {isa = PBXBuildFile; fileRef = 53042D601AEF180D99BEC2FE /* MMHomeView.m */; };
 		530425FB47F64AEDFEB84527 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 530424F2FAC91429EC9C1849 /* InfoPlist.strings */; };
 		5304261EC2618C1378494110 /* MMMockedServiceFactory.m in Sources */ = {isa = PBXBuildFile; fileRef = 530421906F8AC9C772531AA6 /* MMMockedServiceFactory.m */; };
-		53042856B4C53F35380A84EF /* MMStubServiceFactory.m in Sources */ = {isa = PBXBuildFile; fileRef = 53042DB97884320670235E63 /* MMStubServiceFactory.m */; };
+		5304262FA1F2220804E43F81 /* MMControllerFactory.m in Sources */ = {isa = PBXBuildFile; fileRef = 530425EC69927A30FE12E77C /* MMControllerFactory.m */; };
 		530428A9F1997D644F213945 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 53042C8DA312A0F3D64BC2B6 /* main.m */; };
 		5304297466E78BEC8D5BF096 /* image1@2x.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 530427C20CF0B3C9C39E2FF0 /* image1@2x.jpg */; };
 		530429B129B374D5A7174F7B /* image3@2x.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 530425AB93C5814A9B385072 /* image3@2x.jpg */; };
+		530429BDB32A08A37071AE82 /* MMStubImageService.m in Sources */ = {isa = PBXBuildFile; fileRef = 53042D9C5B8750EE32F3FE96 /* MMStubImageService.m */; };
 		530429C615C9C3305793D668 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 530421138FFFE143E862A48E /* XCTest.framework */; };
+		53042B63517D8EE15741B0DD /* MMControllerFactory.m in Sources */ = {isa = PBXBuildFile; fileRef = 530425EC69927A30FE12E77C /* MMControllerFactory.m */; };
 		53042BCA78E77B0394E43469 /* background@2x.PNG in Resources */ = {isa = PBXBuildFile; fileRef = 530423C8641D2B57082B5FAA /* background@2x.PNG */; };
 		53042C051C46EDA6AFB8537E /* MMHomeView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 53042E07CDFFC416809EAE62 /* MMHomeView.xib */; };
+		53042C08FD92F2AAD1476815 /* MMStubServiceFactory.m in Sources */ = {isa = PBXBuildFile; fileRef = 5304247936F2BF3715886547 /* MMStubServiceFactory.m */; };
 		53042C0A1F0D7C6EF92F74D3 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5304235EE44E256927089A71 /* CoreGraphics.framework */; };
 		53042C750604BBF2135D9C1B /* MMMockedImageService.m in Sources */ = {isa = PBXBuildFile; fileRef = 530422B6888ACBB6563050B2 /* MMMockedImageService.m */; };
 		53042D7EB2E768758ABF206D /* MMAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 53042AEC20A93EA74EB5C1FF /* MMAppDelegate.m */; };
@@ -41,7 +42,6 @@
 		79ECE1D4197847F5006ACCB7 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 53042C8DA312A0F3D64BC2B6 /* main.m */; };
 		79ECE1D819784A24006ACCB7 /* MMHomeView.m in Sources */ = {isa = PBXBuildFile; fileRef = 53042D601AEF180D99BEC2FE /* MMHomeView.m */; };
 		79ECE1D919784A24006ACCB7 /* MMHomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 53042D42960B1AF03676BD33 /* MMHomeViewController.m */; };
-		79ECE1DA19784A24006ACCB7 /* MMControllerFactory.m in Sources */ = {isa = PBXBuildFile; fileRef = 53042F4C78573B68E8090845 /* MMControllerFactory.m */; };
 		79ECE1E019784C64006ACCB7 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 530421138FFFE143E862A48E /* XCTest.framework */; };
 		79ECE1E119784C64006ACCB7 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 53042512077E4550C06DBCF2 /* Foundation.framework */; };
 		79ECE1E219784C64006ACCB7 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5304272831AA98044FFD50CA /* UIKit.framework */; };
@@ -69,7 +69,6 @@
 
 /* Begin PBXFileReference section */
 		53042082E0726D9B5898E8C0 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		530421074EC588BEE010FECD /* MMControllerFactory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MMControllerFactory.h; sourceTree = "<group>"; };
 		530421138FFFE143E862A48E /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
 		5304213EFE9F69196BD0C6F6 /* TDDExampleTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.info; path = "TDDExampleTests-Info.plist"; sourceTree = "<group>"; };
 		53042145466EDC8099B74402 /* TDDExampleTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TDDExampleTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -77,34 +76,35 @@
 		5304222351156A260011CADA /* MMMockedServiceFactory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MMMockedServiceFactory.h; sourceTree = "<group>"; };
 		530422B6888ACBB6563050B2 /* MMMockedImageService.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MMMockedImageService.m; sourceTree = "<group>"; };
 		5304235EE44E256927089A71 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		530423C77DE0FC941C8EE3F1 /* MMServiceFactory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MMServiceFactory.h; sourceTree = "<group>"; };
 		530423C8641D2B57082B5FAA /* background@2x.PNG */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "background@2x.PNG"; sourceTree = "<group>"; };
+		5304247936F2BF3715886547 /* MMStubServiceFactory.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MMStubServiceFactory.m; sourceTree = "<group>"; };
 		530424873567B5D7C0342B2A /* MMMockedImageService.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MMMockedImageService.h; sourceTree = "<group>"; };
 		53042512077E4550C06DBCF2 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		530425AB93C5814A9B385072 /* image3@2x.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "image3@2x.jpg"; sourceTree = "<group>"; };
-		530425E67AD27E26EE741FCF /* MMStubImageService.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MMStubImageService.m; sourceTree = "<group>"; };
+		530425EC69927A30FE12E77C /* MMControllerFactory.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MMControllerFactory.m; sourceTree = "<group>"; };
 		530426558BE6386752F64786 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		5304272831AA98044FFD50CA /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		530427B99F3F326C5C579386 /* image4@2x.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "image4@2x.jpg"; sourceTree = "<group>"; };
 		530427C20CF0B3C9C39E2FF0 /* image1@2x.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "image1@2x.jpg"; sourceTree = "<group>"; };
 		530429E35B5BFC19F8B0A967 /* MMHomeView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MMHomeView.h; sourceTree = "<group>"; };
 		53042A656B221DC2AA1B1B38 /* TDDExample-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.info; path = "TDDExample-Info.plist"; sourceTree = "<group>"; };
-		53042A75AC234FEE68605910 /* MMServiceFactory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MMServiceFactory.h; sourceTree = "<group>"; };
 		53042AA39384F1C5FAB0D3C7 /* MMHomeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MMHomeViewController.h; sourceTree = "<group>"; };
-		53042AD85EA1EF115314C619 /* MMStubServiceFactory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MMStubServiceFactory.h; sourceTree = "<group>"; };
 		53042AEC20A93EA74EB5C1FF /* MMAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MMAppDelegate.m; sourceTree = "<group>"; };
 		53042AF211826F91C92DD90D /* MMAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MMAppDelegate.h; sourceTree = "<group>"; };
+		53042B763960550B3F22F6E2 /* MMControllerFactory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MMControllerFactory.h; sourceTree = "<group>"; };
 		53042B8A8AB079022C5C6E6E /* TDDExample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TDDExample.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		53042B92B470A1DE1AA4ECA0 /* MMStubServiceFactory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MMStubServiceFactory.h; sourceTree = "<group>"; };
 		53042B9C04883E3294777065 /* image2@2x.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "image2@2x.jpg"; sourceTree = "<group>"; };
-		53042BC458694DF2DA91DB8C /* MMStubImageService.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MMStubImageService.h; sourceTree = "<group>"; };
 		53042BF4037544CDB4D8CA65 /* TDDExample-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "TDDExample-Prefix.pch"; sourceTree = "<group>"; };
 		53042C8DA312A0F3D64BC2B6 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		53042CBD0808CD7D32E4AB1B /* MMStubImageService.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MMStubImageService.h; sourceTree = "<group>"; };
 		53042D42960B1AF03676BD33 /* MMHomeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MMHomeViewController.m; sourceTree = "<group>"; };
 		53042D601AEF180D99BEC2FE /* MMHomeView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MMHomeView.m; sourceTree = "<group>"; };
-		53042DB97884320670235E63 /* MMStubServiceFactory.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MMStubServiceFactory.m; sourceTree = "<group>"; };
+		53042D9C5B8750EE32F3FE96 /* MMStubImageService.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MMStubImageService.m; sourceTree = "<group>"; };
+		53042DA31BD9C5A28DD50976 /* MMImageService.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MMImageService.h; sourceTree = "<group>"; };
 		53042E07CDFFC416809EAE62 /* MMHomeView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MMHomeView.xib; sourceTree = "<group>"; };
 		53042E1111644FAAC16175BF /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		53042E81831EFA4C253E4D88 /* MMImageService.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MMImageService.h; sourceTree = "<group>"; };
-		53042F4C78573B68E8090845 /* MMControllerFactory.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MMControllerFactory.m; sourceTree = "<group>"; };
 		79CF403D1975BC5900212988 /* MMHomeScreenTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MMHomeScreenTests.m; sourceTree = "<group>"; };
 		79ECE17619783C13006ACCB7 /* MMControllerFactoryTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MMControllerFactoryTests.m; sourceTree = "<group>"; };
 		79ECE1AA19784758006ACCB7 /* StubTDDExample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = StubTDDExample.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -163,6 +163,17 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		53042079EDE31A28846AE1D6 /* Mocks */ = {
+			isa = PBXGroup;
+			children = (
+				53042B92B470A1DE1AA4ECA0 /* MMStubServiceFactory.h */,
+				53042CBD0808CD7D32E4AB1B /* MMStubImageService.h */,
+				5304247936F2BF3715886547 /* MMStubServiceFactory.m */,
+				53042D9C5B8750EE32F3FE96 /* MMStubImageService.m */,
+			);
+			path = Mocks;
+			sourceTree = "<group>";
+		};
 		5304207DEDBA1C16700F216F = {
 			isa = PBXGroup;
 			children = (
@@ -191,15 +202,8 @@
 			children = (
 				530426737ED2B6833A62B1C2 /* Supporting Files */,
 				79CF403D1975BC5900212988 /* MMHomeScreenTests.m */,
-				530425E67AD27E26EE741FCF /* MMStubImageService.m */,
-				53042BC458694DF2DA91DB8C /* MMStubImageService.h */,
-				53042E81831EFA4C253E4D88 /* MMImageService.h */,
 				79ECE17619783C13006ACCB7 /* MMControllerFactoryTests.m */,
-				53042F4C78573B68E8090845 /* MMControllerFactory.m */,
-				530421074EC588BEE010FECD /* MMControllerFactory.h */,
-				53042DB97884320670235E63 /* MMStubServiceFactory.m */,
-				53042AD85EA1EF115314C619 /* MMStubServiceFactory.h */,
-				53042A75AC234FEE68605910 /* MMServiceFactory.h */,
+				53042079EDE31A28846AE1D6 /* Mocks */,
 			);
 			path = TDDExampleTests;
 			sourceTree = "<group>";
@@ -248,6 +252,10 @@
 				53042D42960B1AF03676BD33 /* MMHomeViewController.m */,
 				53042AA39384F1C5FAB0D3C7 /* MMHomeViewController.h */,
 				530423C8641D2B57082B5FAA /* background@2x.PNG */,
+				53042DA31BD9C5A28DD50976 /* MMImageService.h */,
+				530423C77DE0FC941C8EE3F1 /* MMServiceFactory.h */,
+				53042B763960550B3F22F6E2 /* MMControllerFactory.h */,
+				530425EC69927A30FE12E77C /* MMControllerFactory.m */,
 			);
 			path = TDDExample;
 			sourceTree = "<group>";
@@ -457,8 +465,8 @@
 			files = (
 				79CF403E1975BC5900212988 /* MMHomeScreenTests.m in Sources */,
 				79ECE17719783C13006ACCB7 /* MMControllerFactoryTests.m in Sources */,
-				5304255DF53C151B08D4252B /* MMStubImageService.m in Sources */,
-				53042856B4C53F35380A84EF /* MMStubServiceFactory.m in Sources */,
+				53042C08FD92F2AAD1476815 /* MMStubServiceFactory.m in Sources */,
+				530429BDB32A08A37071AE82 /* MMStubImageService.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -470,7 +478,7 @@
 				53042D7EB2E768758ABF206D /* MMAppDelegate.m in Sources */,
 				530425C84C63F3E80EF7841A /* MMHomeView.m in Sources */,
 				53042F974282DD34E4969AB7 /* MMHomeViewController.m in Sources */,
-				5304253FC35D2ECFB657A543 /* MMControllerFactory.m in Sources */,
+				5304262FA1F2220804E43F81 /* MMControllerFactory.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -482,9 +490,9 @@
 				79ECE1B919784758006ACCB7 /* MMAppDelegate.m in Sources */,
 				79ECE1D819784A24006ACCB7 /* MMHomeView.m in Sources */,
 				79ECE1D919784A24006ACCB7 /* MMHomeViewController.m in Sources */,
-				79ECE1DA19784A24006ACCB7 /* MMControllerFactory.m in Sources */,
 				5304261EC2618C1378494110 /* MMMockedServiceFactory.m in Sources */,
 				53042C750604BBF2135D9C1B /* MMMockedImageService.m in Sources */,
+				53042B63517D8EE15741B0DD /* MMControllerFactory.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
