@@ -18,10 +18,10 @@
                     <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                 </imageView>
-                <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Hot news from the web" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="TCs-r0-26s">
-                    <rect key="frame" x="20" y="399" width="179" height="21"/>
+                <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Hot news from the web" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" preferredMaxLayoutWidth="150" translatesAutoresizingMaskIntoConstraints="NO" id="TCs-r0-26s">
+                    <rect key="frame" x="20" y="428" width="150" height="17"/>
                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                    <fontDescription key="fontDescription" type="italicSystem" pointSize="14"/>
                     <color key="textColor" red="0.40000000600000002" green="0.80000001190000003" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                     <nil key="highlightedColor"/>
                 </label>
@@ -87,6 +87,9 @@
                     </constraints>
                     <fontDescription key="fontDescription" type="system" pointSize="14"/>
                     <textInputTraits key="textInputTraits"/>
+                    <connections>
+                        <action selector="textFieldDidEndInput:" destination="iN0-l3-epB" eventType="editingDidEndOnExit" id="8qs-LE-isJ"/>
+                    </connections>
                 </textField>
                 <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="User" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="567-br-9BT">
                     <rect key="frame" x="142" y="253" width="36" height="21"/>
@@ -110,21 +113,35 @@
                     </constraints>
                     <fontDescription key="fontDescription" type="system" pointSize="14"/>
                     <textInputTraits key="textInputTraits"/>
+                    <connections>
+                        <action selector="textFieldDidEndInput:" destination="iN0-l3-epB" eventType="editingDidEndOnExit" id="Z6b-3w-S92"/>
+                    </connections>
                 </textField>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="KDA-V5-HAa">
+                    <rect key="frame" x="139" y="387" width="43" height="33"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                    <state key="normal" title="Login">
+                        <color key="titleColor" red="1" green="0.50196081399917603" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                        <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                    </state>
+                </button>
             </subviews>
             <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
             <constraints>
+                <constraint firstAttribute="centerX" secondItem="KDA-V5-HAa" secondAttribute="centerX" id="4mX-5m-Yp7"/>
                 <constraint firstAttribute="centerX" secondItem="C9o-rD-58Z" secondAttribute="centerX" id="6Bw-F7-xZe"/>
                 <constraint firstAttribute="centerX" secondItem="QwO-sb-Ogc" secondAttribute="centerX" id="78j-e5-1wL"/>
                 <constraint firstItem="QwO-sb-Ogc" firstAttribute="top" secondItem="567-br-9BT" secondAttribute="bottom" constant="8" id="DUK-sA-9tO"/>
                 <constraint firstAttribute="bottom" secondItem="HWp-CS-Dip" secondAttribute="bottom" id="EkC-yY-iuY"/>
                 <constraint firstItem="567-br-9BT" firstAttribute="top" secondItem="C9o-rD-58Z" secondAttribute="bottom" constant="8" id="FTE-59-cJM"/>
                 <constraint firstItem="TCs-r0-26s" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" constant="20" symbolic="YES" id="Jfg-3J-7c3"/>
+                <constraint firstItem="KDA-V5-HAa" firstAttribute="top" secondItem="yPI-XR-sgm" secondAttribute="bottom" constant="8" id="KOK-ms-Dmv"/>
                 <constraint firstAttribute="centerX" secondItem="yPI-XR-sgm" secondAttribute="centerX" id="LJM-ei-OSp"/>
                 <constraint firstItem="C9o-rD-58Z" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" constant="20" id="R21-gj-YMs"/>
+                <constraint firstItem="TCs-r0-26s" firstAttribute="top" secondItem="KDA-V5-HAa" secondAttribute="bottom" constant="8" id="W13-Dl-Nd0"/>
                 <constraint firstAttribute="trailing" secondItem="HWp-CS-Dip" secondAttribute="trailing" id="WcL-cA-yp5"/>
                 <constraint firstItem="1Dm-5x-opT" firstAttribute="top" secondItem="QwO-sb-Ogc" secondAttribute="bottom" constant="8" id="Yt3-V5-SRF"/>
-                <constraint firstItem="TCs-r0-26s" firstAttribute="top" secondItem="yPI-XR-sgm" secondAttribute="bottom" constant="20" id="aKF-Xt-SLA"/>
                 <constraint firstAttribute="centerX" secondItem="1Dm-5x-opT" secondAttribute="centerX" id="bW7-1f-Akd"/>
                 <constraint firstItem="HWp-CS-Dip" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" id="jIq-V4-47q"/>
                 <constraint firstItem="yPI-XR-sgm" firstAttribute="top" secondItem="1Dm-5x-opT" secondAttribute="bottom" constant="8" id="mJQ-Q4-SYG"/>
@@ -134,6 +151,7 @@
             <simulatedStatusBarMetrics key="simulatedStatusBarMetrics"/>
             <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina4"/>
             <connections>
+                <outlet property="confirmButton" destination="KDA-V5-HAa" id="edJ-iz-IVi"/>
                 <outlet property="passwordInputField" destination="yPI-XR-sgm" id="5m1-bO-Srr"/>
                 <outlet property="topMarginConstraint" destination="R21-gj-YMs" id="S48-YL-GBL"/>
                 <outlet property="usernameInputField" destination="QwO-sb-Ogc" id="Byt-l3-Hhs"/>

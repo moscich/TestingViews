@@ -13,5 +13,7 @@
 @property(nonatomic, strong) IBOutlet UITextField *usernameInputField;
 @property(nonatomic, strong) IBOutlet UITextField *passwordInputField;
 @property(nonatomic, strong) IBOutlet NSLayoutConstraint *topMarginConstraint;
+@property(nonatomic, strong) IBOutlet UIButton *confirmButton;
 
+- (IBAction)textFieldDidEndInput:(UITextField *)textField;
 @end

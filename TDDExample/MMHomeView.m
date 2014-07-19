@@ -24,18 +24,30 @@
 
 - (void)keyboardWillBeShown:(NSNotification *)keyboardNotification {
   self.topConstaintBeforeKeyboardAppearance = self.topMarginConstraint.constant;
-  CGFloat lowestInputField = CGRectGetMaxY(self.passwordInputField.frame);
+  CGFloat lowestInputField = CGRectGetMaxY(self.confirmButton.frame);
   CGRect keyboardFrame = [keyboardNotification.userInfo[UIKeyboardFrameEndUserInfoKey] CGRectValue];
 
   self.topMarginConstraint.constant = 10 - keyboardFrame.size.height + self.bounds.size.height - lowestInputField;
-  [UIView animateWithDuration:[keyboardNotification.userInfo[UIKeyboardAnimationDurationUserInfoKey] doubleValue]
-                   animations:^{
-    [self layoutIfNeeded];
-  }];
+  [self animateLayoutChange:[keyboardNotification.userInfo[UIKeyboardAnimationDurationUserInfoKey] doubleValue]];
 }
 
 - (void)keyboardWillDissapear:(NSNotification *)keyboardNotification {
   self.topMarginConstraint.constant = self.topConstaintBeforeKeyboardAppearance;
+  [self animateLayoutChange:[keyboardNotification.userInfo[UIKeyboardAnimationDurationUserInfoKey] doubleValue]];
+}
+
+- (IBAction)textFieldDidEndInput:(UITextField *)textField {
+  if(textField == self.usernameInputField)
+    [self.passwordInputField becomeFirstResponder];
+  else if(textField == self.passwordInputField)
+    [self.passwordInputField resignFirstResponder];
+}
+
+- (void)animateLayoutChange:(double)duration {
+  [UIView animateWithDuration:duration
+                   animations:^{
+    [self layoutIfNeeded];
+  }];
 }
 
 - (void)dealloc{

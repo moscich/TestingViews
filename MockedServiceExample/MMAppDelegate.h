@@ -1,8 +1,8 @@
 //
 //  MMAppDelegate.h
-//  StubTDDExample
+//  MockedServiceExample
 //
-//  Created by Marek Moscichowski on 17/07/14.
+//  Created by Marek Moscichowski on 19/07/14.
 //  Copyright (c) 2014 Marek Mościchowski. All rights reserved.
 //
 
