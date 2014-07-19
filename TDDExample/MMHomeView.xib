@@ -82,6 +82,7 @@
                 <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="QwO-sb-Ogc">
                     <rect key="frame" x="86" y="282" width="148" height="30"/>
                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                    <accessibility key="accessibilityConfiguration" label="userTextField"/>
                     <constraints>
                         <constraint firstAttribute="width" constant="148" id="JLR-wu-CEv"/>
                     </constraints>
@@ -108,6 +109,7 @@
                 <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="yPI-XR-sgm">
                     <rect key="frame" x="86" y="349" width="148" height="30"/>
                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                    <accessibility key="accessibilityConfiguration" label="passwordTextField"/>
                     <constraints>
                         <constraint firstAttribute="width" constant="148" id="wsZ-Yd-dUO"/>
                     </constraints>

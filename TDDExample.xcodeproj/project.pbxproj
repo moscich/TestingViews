@@ -9,11 +9,13 @@
 /* Begin PBXBuildFile section */
 		5304226500B8D699702D03F5 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 5304212A5BE5D6250AFDA8C2 /* InfoPlist.strings */; };
 		530422807D541E33416C762D /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5304272831AA98044FFD50CA /* UIKit.framework */; };
+		5304232178987C0F278A27EF /* HomeScreen_mask@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 53042C5B5B49B350CA9927D1 /* HomeScreen_mask@2x.png */; };
 		530423CEBFB839D4780EB975 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 53042512077E4550C06DBCF2 /* Foundation.framework */; };
 		530425676E9D28EC91C333C8 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 530426558BE6386752F64786 /* Images.xcassets */; };
 		530425C84C63F3E80EF7841A /* MMHomeView.m in Sources */ = {isa = PBXBuildFile; fileRef = 53042D601AEF180D99BEC2FE /* MMHomeView.m */; };
 		530425FB47F64AEDFEB84527 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 530424F2FAC91429EC9C1849 /* InfoPlist.strings */; };
 		5304262FA1F2220804E43F81 /* MMControllerFactory.m in Sources */ = {isa = PBXBuildFile; fileRef = 530425EC69927A30FE12E77C /* MMControllerFactory.m */; };
+		530427DE8574969475911F55 /* HomeScreen@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 530420AF8B6C2829F35B106C /* HomeScreen@2x.png */; };
 		530428A9F1997D644F213945 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 53042C8DA312A0F3D64BC2B6 /* main.m */; };
 		530429BDB32A08A37071AE82 /* MMStubImageService.m in Sources */ = {isa = PBXBuildFile; fileRef = 53042D9C5B8750EE32F3FE96 /* MMStubImageService.m */; };
 		530429C615C9C3305793D668 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 530421138FFFE143E862A48E /* XCTest.framework */; };
@@ -48,8 +50,15 @@
 		7974C264197A79C900918CAC /* MMHomeView.m in Sources */ = {isa = PBXBuildFile; fileRef = 53042D601AEF180D99BEC2FE /* MMHomeView.m */; };
 		7974C265197A7A9800918CAC /* background@2x.PNG in Resources */ = {isa = PBXBuildFile; fileRef = 530423C8641D2B57082B5FAA /* background@2x.PNG */; };
 		7974C266197A7AD900918CAC /* MMMockedServiceTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 79ECE1E919784C64006ACCB7 /* MMMockedServiceTests.m */; };
+		7974C26C197AA10500918CAC /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 530421138FFFE143E862A48E /* XCTest.framework */; };
+		7974C26D197AA10500918CAC /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 53042512077E4550C06DBCF2 /* Foundation.framework */; };
+		7974C26E197AA10500918CAC /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5304272831AA98044FFD50CA /* UIKit.framework */; };
+		7974C274197AA10500918CAC /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 7974C272197AA10500918CAC /* InfoPlist.strings */; };
+		7974C276197AA10500918CAC /* UITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 7974C275197AA10500918CAC /* UITests.m */; };
+		7974C27D197AA31200918CAC /* KIFUITestActor+ScreenComparer.m in Sources */ = {isa = PBXBuildFile; fileRef = 5304259B5E0F4F7AAE162A4E /* KIFUITestActor+ScreenComparer.m */; };
 		79CF403E1975BC5900212988 /* MMHomeScreenTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 79CF403D1975BC5900212988 /* MMHomeScreenTests.m */; };
 		79ECE17719783C13006ACCB7 /* MMControllerFactoryTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 79ECE17619783C13006ACCB7 /* MMControllerFactoryTests.m */; };
+		930C8BC48DBC4ED8938DEE07 /* libPods-KIF mocked UI tests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = F7A7E7AC13C0401299DEA339 /* libPods-KIF mocked UI tests.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -67,10 +76,18 @@
 			remoteGlobalIDString = 7974C230197A792500918CAC;
 			remoteInfo = MockedServiceExample;
 		};
+		7974C278197AA10500918CAC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 530428161B295A77820B3F16 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7974C230197A792500918CAC;
+			remoteInfo = MockedServiceExample;
+		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
 		53042082E0726D9B5898E8C0 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		530420AF8B6C2829F35B106C /* HomeScreen@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "HomeScreen@2x.png"; sourceTree = "<group>"; };
 		530421138FFFE143E862A48E /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
 		5304213EFE9F69196BD0C6F6 /* TDDExampleTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.info; path = "TDDExampleTests-Info.plist"; sourceTree = "<group>"; };
 		53042145466EDC8099B74402 /* TDDExampleTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TDDExampleTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -83,6 +100,8 @@
 		5304247936F2BF3715886547 /* MMStubServiceFactory.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MMStubServiceFactory.m; sourceTree = "<group>"; };
 		530424873567B5D7C0342B2A /* MMMockedImageService.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MMMockedImageService.h; path = ../StubTDDExample/MMMockedImageService.h; sourceTree = "<group>"; };
 		53042512077E4550C06DBCF2 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		53042586448AD86825661E35 /* KIFUITestActor+ScreenComparer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "KIFUITestActor+ScreenComparer.h"; sourceTree = "<group>"; };
+		5304259B5E0F4F7AAE162A4E /* KIFUITestActor+ScreenComparer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "KIFUITestActor+ScreenComparer.m"; sourceTree = "<group>"; };
 		530425AB93C5814A9B385072 /* image3@2x.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "image3@2x.jpg"; sourceTree = "<group>"; };
 		530425EC69927A30FE12E77C /* MMControllerFactory.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MMControllerFactory.m; sourceTree = "<group>"; };
 		530426558BE6386752F64786 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
@@ -99,6 +118,7 @@
 		53042B92B470A1DE1AA4ECA0 /* MMStubServiceFactory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MMStubServiceFactory.h; sourceTree = "<group>"; };
 		53042B9C04883E3294777065 /* image2@2x.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "image2@2x.jpg"; sourceTree = "<group>"; };
 		53042BF4037544CDB4D8CA65 /* TDDExample-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "TDDExample-Prefix.pch"; sourceTree = "<group>"; };
+		53042C5B5B49B350CA9927D1 /* HomeScreen_mask@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "HomeScreen_mask@2x.png"; sourceTree = "<group>"; };
 		53042C8DA312A0F3D64BC2B6 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		53042CBD0808CD7D32E4AB1B /* MMStubImageService.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MMStubImageService.h; sourceTree = "<group>"; };
 		53042D42960B1AF03676BD33 /* MMHomeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MMHomeViewController.m; sourceTree = "<group>"; };
@@ -118,9 +138,16 @@
 		7974C247197A792500918CAC /* MockedServiceExampleTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MockedServiceExampleTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		7974C24F197A792600918CAC /* MockedServiceExampleTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "MockedServiceExampleTests-Info.plist"; sourceTree = "<group>"; };
 		7974C251197A792600918CAC /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		7974C26B197AA10500918CAC /* KIF mocked UI tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "KIF mocked UI tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		7974C271197AA10500918CAC /* KIF mocked UI tests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "KIF mocked UI tests-Info.plist"; sourceTree = "<group>"; };
+		7974C273197AA10500918CAC /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		7974C275197AA10500918CAC /* UITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = UITests.m; sourceTree = "<group>"; };
+		7974C277197AA10500918CAC /* KIF mocked UI tests-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "KIF mocked UI tests-Prefix.pch"; sourceTree = "<group>"; };
 		79CF403D1975BC5900212988 /* MMHomeScreenTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MMHomeScreenTests.m; sourceTree = "<group>"; };
 		79ECE17619783C13006ACCB7 /* MMControllerFactoryTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MMControllerFactoryTests.m; sourceTree = "<group>"; };
 		79ECE1E919784C64006ACCB7 /* MMMockedServiceTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = MMMockedServiceTests.m; path = "../StubTDDExample Unit tests/MMMockedServiceTests.m"; sourceTree = "<group>"; };
+		DD33B689278541C9A5436B7C /* Pods-KIF mocked UI tests.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KIF mocked UI tests.xcconfig"; path = "Pods/Pods-KIF mocked UI tests.xcconfig"; sourceTree = "<group>"; };
+		F7A7E7AC13C0401299DEA339 /* libPods-KIF mocked UI tests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-KIF mocked UI tests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -164,9 +191,29 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		7974C268197AA10500918CAC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7974C26C197AA10500918CAC /* XCTest.framework in Frameworks */,
+				7974C26E197AA10500918CAC /* UIKit.framework in Frameworks */,
+				7974C26D197AA10500918CAC /* Foundation.framework in Frameworks */,
+				930C8BC48DBC4ED8938DEE07 /* libPods-KIF mocked UI tests.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		530420144D7B81FA0F5D521F /* Reference Screens */ = {
+			isa = PBXGroup;
+			children = (
+				530420AF8B6C2829F35B106C /* HomeScreen@2x.png */,
+				53042C5B5B49B350CA9927D1 /* HomeScreen_mask@2x.png */,
+			);
+			path = "Reference Screens";
+			sourceTree = "<group>";
+		};
 		53042079EDE31A28846AE1D6 /* Mocks */ = {
 			isa = PBXGroup;
 			children = (
@@ -183,10 +230,12 @@
 			children = (
 				7974C235197A792500918CAC /* MockedServiceExample */,
 				7974C24D197A792600918CAC /* MockedServiceExampleTests */,
+				7974C26F197AA10500918CAC /* KIF mocked UI tests */,
 				53042F8D94FC78AE669F7774 /* Products */,
 				530420EAEEBF5C7D306B4D5C /* Frameworks */,
 				53042B11C1F4DE171D49A0DC /* TDDExample */,
 				5304232707B68303D2ED799C /* TDDExampleTests */,
+				DD33B689278541C9A5436B7C /* Pods-KIF mocked UI tests.xcconfig */,
 			);
 			sourceTree = "<group>";
 		};
@@ -197,6 +246,7 @@
 				5304235EE44E256927089A71 /* CoreGraphics.framework */,
 				5304272831AA98044FFD50CA /* UIKit.framework */,
 				530421138FFFE143E862A48E /* XCTest.framework */,
+				F7A7E7AC13C0401299DEA339 /* libPods-KIF mocked UI tests.a */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -272,6 +322,7 @@
 				53042145466EDC8099B74402 /* TDDExampleTests.xctest */,
 				7974C231197A792500918CAC /* MockedServiceExample.app */,
 				7974C247197A792500918CAC /* MockedServiceExampleTests.xctest */,
+				7974C26B197AA10500918CAC /* KIF mocked UI tests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -317,6 +368,28 @@
 			children = (
 				7974C24F197A792600918CAC /* MockedServiceExampleTests-Info.plist */,
 				7974C250197A792600918CAC /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		7974C26F197AA10500918CAC /* KIF mocked UI tests */ = {
+			isa = PBXGroup;
+			children = (
+				7974C275197AA10500918CAC /* UITests.m */,
+				7974C270197AA10500918CAC /* Supporting Files */,
+				53042586448AD86825661E35 /* KIFUITestActor+ScreenComparer.h */,
+				5304259B5E0F4F7AAE162A4E /* KIFUITestActor+ScreenComparer.m */,
+				530420144D7B81FA0F5D521F /* Reference Screens */,
+			);
+			path = "KIF mocked UI tests";
+			sourceTree = "<group>";
+		};
+		7974C270197AA10500918CAC /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				7974C271197AA10500918CAC /* KIF mocked UI tests-Info.plist */,
+				7974C272197AA10500918CAC /* InfoPlist.strings */,
+				7974C277197AA10500918CAC /* KIF mocked UI tests-Prefix.pch */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -394,6 +467,26 @@
 			productReference = 7974C247197A792500918CAC /* MockedServiceExampleTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
+		7974C26A197AA10500918CAC /* KIF mocked UI tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7974C27A197AA10500918CAC /* Build configuration list for PBXNativeTarget "KIF mocked UI tests" */;
+			buildPhases = (
+				8116E0E428CC42BCB0580A7C /* Check Pods Manifest.lock */,
+				7974C267197AA10500918CAC /* Sources */,
+				7974C268197AA10500918CAC /* Frameworks */,
+				7974C269197AA10500918CAC /* Resources */,
+				21E007BF2DB04003ADBE9AC7 /* Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				7974C279197AA10500918CAC /* PBXTargetDependency */,
+			);
+			name = "KIF mocked UI tests";
+			productName = "KIF mocked UI tests";
+			productReference = 7974C26B197AA10500918CAC /* KIF mocked UI tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -406,6 +499,9 @@
 						TestTargetID = 53042BEC1E8ABBD59AC1451E;
 					};
 					7974C246197A792500918CAC = {
+						TestTargetID = 7974C230197A792500918CAC;
+					};
+					7974C26A197AA10500918CAC = {
 						TestTargetID = 7974C230197A792500918CAC;
 					};
 				};
@@ -426,6 +522,7 @@
 				53042977D1001C942B4F0537 /* TDDExampleTests */,
 				7974C230197A792500918CAC /* MockedServiceExample */,
 				7974C246197A792500918CAC /* MockedServiceExampleTests */,
+				7974C26A197AA10500918CAC /* KIF mocked UI tests */,
 			);
 		};
 /* End PBXProject section */
@@ -473,7 +570,50 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		7974C269197AA10500918CAC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7974C274197AA10500918CAC /* InfoPlist.strings in Resources */,
+				530427DE8574969475911F55 /* HomeScreen@2x.png in Resources */,
+				5304232178987C0F278A27EF /* HomeScreen_mask@2x.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		21E007BF2DB04003ADBE9AC7 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Pods-KIF mocked UI tests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8116E0E428CC42BCB0580A7C /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		53042017FA87A190D165AF01 /* Sources */ = {
@@ -521,6 +661,15 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		7974C267197AA10500918CAC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7974C276197AA10500918CAC /* UITests.m in Sources */,
+				7974C27D197AA31200918CAC /* KIFUITestActor+ScreenComparer.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
@@ -533,6 +682,11 @@
 			isa = PBXTargetDependency;
 			target = 7974C230197A792500918CAC /* MockedServiceExample */;
 			targetProxy = 7974C24B197A792600918CAC /* PBXContainerItemProxy */;
+		};
+		7974C279197AA10500918CAC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 7974C230197A792500918CAC /* MockedServiceExample */;
+			targetProxy = 7974C278197AA10500918CAC /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -565,6 +719,14 @@
 			isa = PBXVariantGroup;
 			children = (
 				7974C251197A792600918CAC /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		7974C272197AA10500918CAC /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7974C273197AA10500918CAC /* en */,
 			);
 			name = InfoPlist.strings;
 			sourceTree = "<group>";
@@ -774,6 +936,48 @@
 			};
 			name = Release;
 		};
+		7974C27B197AA10500918CAC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DD33B689278541C9A5436B7C /* Pods-KIF mocked UI tests.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/MockedServiceExample.app/MockedServiceExample";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "KIF mocked UI tests/KIF mocked UI tests-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "KIF mocked UI tests/KIF mocked UI tests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		7974C27C197AA10500918CAC /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DD33B689278541C9A5436B7C /* Pods-KIF mocked UI tests.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/MockedServiceExample.app/MockedServiceExample";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "KIF mocked UI tests/KIF mocked UI tests-Prefix.pch";
+				INFOPLIST_FILE = "KIF mocked UI tests/KIF mocked UI tests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -811,6 +1015,7 @@
 				7974C257197A792600918CAC /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		7974C258197A792600918CAC /* Build configuration list for PBXNativeTarget "MockedServiceExampleTests" */ = {
 			isa = XCConfigurationList;
@@ -819,6 +1024,16 @@
 				7974C25A197A792600918CAC /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7974C27A197AA10500918CAC /* Build configuration list for PBXNativeTarget "KIF mocked UI tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7974C27B197AA10500918CAC /* Debug */,
+				7974C27C197AA10500918CAC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
