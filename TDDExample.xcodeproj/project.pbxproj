@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		530420573EDBE76CD368C8E0 /* HomeScreen_keyboardVisible@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 5304296227FCB2EBBA6543C0 /* HomeScreen_keyboardVisible@2x.png */; };
 		5304226500B8D699702D03F5 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 5304212A5BE5D6250AFDA8C2 /* InfoPlist.strings */; };
 		530422807D541E33416C762D /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5304272831AA98044FFD50CA /* UIKit.framework */; };
 		5304232178987C0F278A27EF /* HomeScreen_mask@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 53042C5B5B49B350CA9927D1 /* HomeScreen_mask@2x.png */; };
@@ -23,6 +24,7 @@
 		53042C051C46EDA6AFB8537E /* MMHomeView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 53042E07CDFFC416809EAE62 /* MMHomeView.xib */; };
 		53042C08FD92F2AAD1476815 /* MMStubServiceFactory.m in Sources */ = {isa = PBXBuildFile; fileRef = 5304247936F2BF3715886547 /* MMStubServiceFactory.m */; };
 		53042C0A1F0D7C6EF92F74D3 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5304235EE44E256927089A71 /* CoreGraphics.framework */; };
+		53042C76408BFFF71F9CDAD3 /* HomeScreen_keyboardVisible_mask@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 530422A05ECC0C54E171122A /* HomeScreen_keyboardVisible_mask@2x.png */; };
 		53042D7EB2E768758ABF206D /* MMAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 53042AEC20A93EA74EB5C1FF /* MMAppDelegate.m */; };
 		53042E3A81511B3C7C7ED6FE /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5304272831AA98044FFD50CA /* UIKit.framework */; };
 		53042E66B3DC95D9D4B3E1B8 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 53042512077E4550C06DBCF2 /* Foundation.framework */; };
@@ -93,6 +95,7 @@
 		53042145466EDC8099B74402 /* TDDExampleTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TDDExampleTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		530421906F8AC9C772531AA6 /* MMMockedServiceFactory.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MMMockedServiceFactory.m; path = ../StubTDDExample/MMMockedServiceFactory.m; sourceTree = "<group>"; };
 		5304222351156A260011CADA /* MMMockedServiceFactory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MMMockedServiceFactory.h; path = ../StubTDDExample/MMMockedServiceFactory.h; sourceTree = "<group>"; };
+		530422A05ECC0C54E171122A /* HomeScreen_keyboardVisible_mask@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "HomeScreen_keyboardVisible_mask@2x.png"; sourceTree = "<group>"; };
 		530422B6888ACBB6563050B2 /* MMMockedImageService.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MMMockedImageService.m; path = ../StubTDDExample/MMMockedImageService.m; sourceTree = "<group>"; };
 		5304235EE44E256927089A71 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
 		530423C77DE0FC941C8EE3F1 /* MMServiceFactory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MMServiceFactory.h; sourceTree = "<group>"; };
@@ -108,6 +111,7 @@
 		5304272831AA98044FFD50CA /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		530427B99F3F326C5C579386 /* image4@2x.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "image4@2x.jpg"; sourceTree = "<group>"; };
 		530427C20CF0B3C9C39E2FF0 /* image1@2x.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "image1@2x.jpg"; sourceTree = "<group>"; };
+		5304296227FCB2EBBA6543C0 /* HomeScreen_keyboardVisible@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "HomeScreen_keyboardVisible@2x.png"; sourceTree = "<group>"; };
 		530429E35B5BFC19F8B0A967 /* MMHomeView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MMHomeView.h; sourceTree = "<group>"; };
 		53042A656B221DC2AA1B1B38 /* TDDExample-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.info; path = "TDDExample-Info.plist"; sourceTree = "<group>"; };
 		53042AA39384F1C5FAB0D3C7 /* MMHomeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MMHomeViewController.h; sourceTree = "<group>"; };
@@ -210,6 +214,8 @@
 			children = (
 				530420AF8B6C2829F35B106C /* HomeScreen@2x.png */,
 				53042C5B5B49B350CA9927D1 /* HomeScreen_mask@2x.png */,
+				5304296227FCB2EBBA6543C0 /* HomeScreen_keyboardVisible@2x.png */,
+				530422A05ECC0C54E171122A /* HomeScreen_keyboardVisible_mask@2x.png */,
 			);
 			path = "Reference Screens";
 			sourceTree = "<group>";
@@ -577,6 +583,8 @@
 				7974C274197AA10500918CAC /* InfoPlist.strings in Resources */,
 				530427DE8574969475911F55 /* HomeScreen@2x.png in Resources */,
 				5304232178987C0F278A27EF /* HomeScreen_mask@2x.png in Resources */,
+				530420573EDBE76CD368C8E0 /* HomeScreen_keyboardVisible@2x.png in Resources */,
+				53042C76408BFFF71F9CDAD3 /* HomeScreen_keyboardVisible_mask@2x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

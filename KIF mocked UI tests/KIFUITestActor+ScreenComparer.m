@@ -15,10 +15,9 @@
     UIImage *maskedScreenshot = [self renderImage:[self maskImage:screenshot withMask:maskImage]];
     UIImage *maskedGolden = [self renderImage:[self maskImage:goldenImage withMask:maskImage]];
 
-//  [self saveImage:screenshot toDiskName:@"HomeScreen@2x.png"];
-//  [self saveImage:maskedScreenshot toDiskName:@"maskedScreenshot.png"];
-//  [self saveImage:[self compareImage:maskedScreenshot withImage:maskedGolden] toDiskName:@"diff.png"];
-//  [self saveImage:maskedGolden toDiskName:@"maskedGolden.png"];
+  [self saveImage:screenshot toDiskName:@"screenshot.png"];
+  [self saveImage:maskedScreenshot toDiskName:@"maskedScreenshot.png"];
+  [self saveImage:maskedGolden toDiskName:@"maskedGolden.png"];
 
   if(![self compareImage:screenshot withImage:goldenImage withMask:maskImage]){
         NSError *error = [[NSError alloc] initWithDomain:@"Given images are different"
@@ -47,7 +46,7 @@
 }
 
 - (UIImage *)getScreenshot {
-    UIWindow *window = [[[UIApplication sharedApplication] windows] lastObject];
+    UIWindow *window = [[UIApplication sharedApplication] windows] [0];
     UIGraphicsBeginImageContextWithOptions(window.bounds.size, YES, [UIScreen mainScreen].scale);
     [window.layer renderInContext:UIGraphicsGetCurrentContext()];
     UIImage *screenshot = UIGraphicsGetImageFromCurrentImageContext();

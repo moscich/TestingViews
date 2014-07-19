@@ -28,7 +28,13 @@
 - (void)testExample {
   [tester waitForViewWithAccessibilityLabel:@"userTextField"];
   [tester compareCurrentScreenWithReferenceImageNamed:@"HomeScreen@2x" withMaskNamed:@"HomeScreen_mask@2x"];
-
+  [tester tapViewWithAccessibilityLabel:@"userTextField"];
+  [tester waitForKeyboard];
+  [tester compareCurrentScreenWithReferenceImageNamed:@"HomeScreen_keyboardVisible@2x" withMaskNamed:@"HomeScreen_keyboardVisible_mask@2x"];
+  [tester enterTextIntoCurrentFirstResponder:@"test user\n"];
+  [tester enterTextIntoCurrentFirstResponder:@"test password\n"];
+  [tester waitForAbsenceOfKeyboard];
+  [tester compareCurrentScreenWithReferenceImageNamed:@"HomeScreen@2x" withMaskNamed:@"HomeScreen_mask@2x"];
 }
 
 @end
