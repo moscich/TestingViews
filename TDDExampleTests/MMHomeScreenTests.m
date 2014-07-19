@@ -37,15 +37,32 @@
     XCTAssertEqualObjects(((UIImageView *) ((MMHomeView *) homeController.view).imageViews[i]).image, mockedImages[i]);
 }
 
-- (void)testHomeViewTextFieldAreVisibleWhenKeyboarAppears {
+- (void)testHomeViewTextFieldAreVisibleWhenKeyboardAppears {
   MMHomeViewController *homeController = [MMHomeViewController new];
   [homeController viewDidLoad];
 
   NSDictionary *notificationObject = @{UIKeyboardFrameEndUserInfoKey: [NSValue valueWithCGRect:CGRectMake(0, 264, 320, 216)]};
   NSNotification *keyboardNotification = [NSNotification notificationWithName:UIKeyboardWillShowNotification object:notificationObject];
 
-  [((MMHomeView *) homeController.view) keyboardWillBeShown:keyboardNotification];
+  [[NSNotificationCenter defaultCenter] postNotificationName:UIKeyboardWillShowNotification object:keyboardNotification];
   XCTAssertTrue(-96 <= ((MMHomeView *)homeController.view).topMarginConstraint.constant);
 }
+
+- (void)testHomeViewTextViewsReturnsToPreviousPositionsAfterKeyboardDisappears {
+  MMHomeViewController *homeController = [MMHomeViewController new];
+  [homeController viewDidLoad];
+  CGFloat topConstraintConstantBeforeKeyboard = ((MMHomeView *)homeController.view).topMarginConstraint.constant;
+
+  [[NSNotificationCenter defaultCenter] postNotificationName:UIKeyboardWillShowNotification object:nil];
+  [[NSNotificationCenter defaultCenter] postNotificationName:UIKeyboardWillHideNotification object:nil];
+
+  XCTAssertEqual(topConstraintConstantBeforeKeyboard, ((MMHomeView *)homeController.view).topMarginConstraint.constant);
+}
+
+//- (void)testSmth{
+//  MMHomeViewController *homeController = [MMHomeViewController new];
+//  [homeController viewDidLoad];
+//  [[NSNotificationCenter defaultCenter] postNotificationName:UIKeyboardWillShowNotification object:nil];
+//}
 
 @end

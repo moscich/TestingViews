@@ -133,10 +133,10 @@
                 <outlet property="passwordInputField" destination="yPI-XR-sgm" id="5m1-bO-Srr"/>
                 <outlet property="topMarginConstraint" destination="R21-gj-YMs" id="S48-YL-GBL"/>
                 <outlet property="usernameInputField" destination="QwO-sb-Ogc" id="Byt-l3-Hhs"/>
-                <outletCollection property="imageViews" destination="xTo-sg-cVK" id="HNC-JE-hlU"/>
-                <outletCollection property="imageViews" destination="svV-U6-ZZe" id="2Id-A5-Yr4"/>
-                <outletCollection property="imageViews" destination="IQn-IH-FcA" id="x8N-zY-xpI"/>
-                <outletCollection property="imageViews" destination="3gd-Te-0gI" id="HCm-Sh-3fR"/>
+                <outletCollection property="imageViews" destination="svV-U6-ZZe" id="ePG-EW-hcz"/>
+                <outletCollection property="imageViews" destination="3gd-Te-0gI" id="hnX-aQ-o7K"/>
+                <outletCollection property="imageViews" destination="xTo-sg-cVK" id="fO3-7Q-uJz"/>
+                <outletCollection property="imageViews" destination="IQn-IH-FcA" id="BMT-18-Zeb"/>
             </connections>
         </view>
     </objects>

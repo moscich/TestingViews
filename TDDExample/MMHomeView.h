@@ -14,5 +14,4 @@
 @property(nonatomic, strong) IBOutlet UITextField *passwordInputField;
 @property(nonatomic, strong) IBOutlet NSLayoutConstraint *topMarginConstraint;
 
-- (void)keyboardWillBeShown:(NSNotification *)keyboardNotification;
 @end
