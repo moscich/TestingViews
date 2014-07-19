@@ -40,12 +40,13 @@
 - (void)testHomeViewTextFieldAreVisibleWhenKeyboardAppears {
   MMHomeViewController *homeController = [MMHomeViewController new];
   [homeController viewDidLoad];
+  MMHomeView *homeView = (MMHomeView *)homeController.view;
 
   NSDictionary *notificationObject = @{UIKeyboardFrameEndUserInfoKey: [NSValue valueWithCGRect:CGRectMake(0, 264, 320, 216)]};
-  NSNotification *keyboardNotification = [NSNotification notificationWithName:UIKeyboardWillShowNotification object:notificationObject];
 
-  [[NSNotificationCenter defaultCenter] postNotificationName:UIKeyboardWillShowNotification object:keyboardNotification];
-  XCTAssertTrue(-96 <= ((MMHomeView *)homeController.view).topMarginConstraint.constant);
+  [[NSNotificationCenter defaultCenter] postNotificationName:UIKeyboardWillShowNotification object:nil userInfo:notificationObject];
+
+  XCTAssertTrue(-17 >= homeView.topMarginConstraint.constant);
 }
 
 - (void)testHomeViewTextViewsReturnsToPreviousPositionsAfterKeyboardDisappears {
@@ -58,11 +59,5 @@
 
   XCTAssertEqual(topConstraintConstantBeforeKeyboard, ((MMHomeView *)homeController.view).topMarginConstraint.constant);
 }
-
-//- (void)testSmth{
-//  MMHomeViewController *homeController = [MMHomeViewController new];
-//  [homeController viewDidLoad];
-//  [[NSNotificationCenter defaultCenter] postNotificationName:UIKeyboardWillShowNotification object:nil];
-//}
 
 @end
