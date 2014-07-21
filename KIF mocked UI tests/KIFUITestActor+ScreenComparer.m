@@ -82,41 +82,11 @@ typedef unsigned char byte;
 - (BOOL)compareImage:(UIImage *)firstImage withImage:(UIImage *)secondImage withMask:(UIImage *)mask {
 
   // Thanks: http://brandontreb.com/image-manipulation-retrieving-and-updating-pixel-values-for-a-uiimage/
-  CGContextRef ctx;
-  CGImageRef firstImageRef = [firstImage CGImage];
-  CGImageRef secondImageRef = [secondImage CGImage];
-  CGImageRef maskRef = [mask CGImage];
-  NSUInteger width = CGImageGetWidth(firstImageRef);
-  NSUInteger height = CGImageGetHeight(firstImageRef);
-  CGColorSpaceRef colorSpace = CGColorSpaceCreateDeviceRGB();
-  byte *rawData = malloc(height * width * 4);
-  byte *secondRawData = malloc(height * width * 4);
-  byte *maskRawData = malloc(height * width * 4);
-  byte *outputRawData = malloc(height * width * 4);
-  NSUInteger bytesPerPixel = 4;
-  NSUInteger bytesPerRow = bytesPerPixel * width;
-  NSUInteger bitsPerComponent = 8;
-  CGContextRef context = CGBitmapContextCreate(rawData, width, height,
-          bitsPerComponent, bytesPerRow, colorSpace,
-          kCGImageAlphaNoneSkipLast | kCGBitmapByteOrder32Big);
-
-  CGContextDrawImage(context, CGRectMake(0, 0, width, height), firstImageRef);
-  CGContextRelease(context);
-
-  CGContextRef secondContext = CGBitmapContextCreate(secondRawData, width, height,
-          bitsPerComponent, bytesPerRow, colorSpace,
-          kCGImageAlphaNoneSkipLast | kCGBitmapByteOrder32Big);
-
-  CGContextDrawImage(secondContext, CGRectMake(0, 0, width, height), secondImageRef);
-  CGContextRelease(secondContext);
-
-  CGContextRef maskContext = CGBitmapContextCreate(maskRawData, width, height,
-          bitsPerComponent, bytesPerRow, colorSpace,
-          kCGImageAlphaNoneSkipLast | kCGBitmapByteOrder32Big);
-
-  CGContextDrawImage(maskContext, CGRectMake(0, 0, width, height), maskRef);
-  CGContextRelease(maskContext);
-
+  NSUInteger width = (NSUInteger) firstImage.size.width;
+  NSUInteger height = (NSUInteger) firstImage.size.height;
+  byte *rawData = [self getRawDataFromImage:firstImage];
+  byte *secondRawData = [self getRawDataFromImage:secondImage];
+  byte *maskRawData = [self getRawDataFromImage:mask];
   int byteIndex = 0;
   BOOL areImagesEqual = YES;
   for (int ii = 0 ; ii < width * height ; ++ii)
@@ -124,40 +94,31 @@ typedef unsigned char byte;
     int diff = abs(rawData[byteIndex] - secondRawData[byteIndex]) + abs(rawData[byteIndex+1] - secondRawData[byteIndex+1]) + abs(rawData[byteIndex+2] - secondRawData[byteIndex+2]);
     if(maskRawData[byteIndex] == 0 && diff > 10){
       areImagesEqual = NO;
-      outputRawData[byteIndex] = 255;
-      outputRawData[byteIndex+1] = 255;
-      outputRawData[byteIndex+2] = 255;
-      outputRawData[byteIndex+3] = 255;
-    }
-    else
-    {
-      outputRawData[byteIndex] = 0;
-      outputRawData[byteIndex+1] = 0;
-      outputRawData[byteIndex+2] = 0;
-      outputRawData[byteIndex+3] = 255;
+      break;
     }
     byteIndex += 4;
   }
 
-  ctx = CGBitmapContextCreate(outputRawData,
-          CGImageGetWidth(firstImageRef),
-          CGImageGetHeight(firstImageRef),
-          8,
-          bytesPerRow,
-          colorSpace,
-          kCGImageAlphaPremultipliedLast );
-  CGColorSpaceRelease(colorSpace);
-
-  firstImageRef = CGBitmapContextCreateImage (ctx);
-  UIImage* rawImage = [UIImage imageWithCGImage:firstImageRef];
-  CGImageRelease(firstImageRef);
-
-  CGContextRelease(ctx);
-  free(rawData);
-  if(!areImagesEqual)
-    [self saveImage:rawImage toDiskName:@"diff.png"];
-
   return areImagesEqual;
+}
+
+- (byte *)getRawDataFromImage:(UIImage *)image{
+  CGImageRef imageRef = [image CGImage];
+  NSUInteger width = CGImageGetWidth(imageRef);
+  NSUInteger height = CGImageGetHeight(imageRef);
+  byte *rawData = malloc(height * width * 4);
+  NSUInteger bytesPerPixel = 4;
+  NSUInteger bytesPerRow = bytesPerPixel * width;
+  NSUInteger bitsPerComponent = 8;
+  CGColorSpaceRef colorSpace = CGColorSpaceCreateDeviceRGB();
+  CGContextRef context = CGBitmapContextCreate(rawData, width, height,
+          bitsPerComponent, bytesPerRow, colorSpace,
+          kCGImageAlphaNoneSkipLast | kCGBitmapByteOrder32Big);
+
+  CGContextDrawImage(context, CGRectMake(0, 0, width, height), imageRef);
+  CGContextRelease(context);
+
+  return rawData;
 }
 
 @end
