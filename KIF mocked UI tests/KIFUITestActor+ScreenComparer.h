@@ -7,5 +7,5 @@
 #import "KIFUITestActor.h"
 
 @interface KIFUITestActor (ScreenComparer)
-- (BOOL)compareCurrentScreenWithReferenceImageNamed:(NSString *)imageName withMaskNamed:(NSString *)maskName;
+- (void)compareCurrentScreenWithReferenceImageNamed:(NSString *)imageName withMaskNamed:(NSString *)maskName;
 @end
